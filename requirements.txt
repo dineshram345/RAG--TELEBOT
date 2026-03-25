@@ -1,0 +1,5 @@
+python-telegram-bot
+sentence-transformers
+ollama
+python-dotenv
+numpy
