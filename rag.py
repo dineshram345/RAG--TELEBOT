@@ -5,15 +5,6 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 import ollama
 
-"""
-Mini-RAG core:
-- read docs from ./docs
-- split into overlapping word chunks
-- embed with SentenceTransformers
-- store embeddings in SQLite (BLOB)
-- retrieve by cosine similarity
-- call Ollama to generate an answer from retrieved context
-"""
 
 EMBED_MODEL = "all-MiniLM-L6-v2"
 LLM_MODEL = "phi3"
